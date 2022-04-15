@@ -3,4 +3,4 @@ A radio widget showing a live feed from a Christian radio station using an XML f
 
 View 
 -----
-http://creativeair.co-radio-widget-demo
+http://creativeair.co/radio-widget-demo
