@@ -33,7 +33,7 @@ async function fetchPlaylistSong( xml, i ) {
         console.log( xArtist )
 
         if ( xml.getElementsByTagName( 'channel' )[0].children[5].childNodes[9].outerHTML.length !== 0 ) {
-            xCover = xml.getElementsByTagNameNS( 'http://search.yahoo.com/mrss/', 'thumbnail' )[5].attributes[0].nodeValue
+            xCover = xml.getElementsByTagNameNS( 'http://search.yahoo.com/mrss/', 'thumbnail' )[0].attributes[0].nodeValue
         } else xCover = "not Found";
         console.log( xCover )
 
